@@ -1,0 +1,27 @@
+#include<iostream.h>
+#include<conio.h>
+class demo
+{
+	int a;
+	public:
+	demo()
+	{
+		cout<<endl<<"Constructor is called..";
+		cout<<endl<<"Enter Value: ";
+		cin>>a;
+	}
+
+	void disp()
+	{
+		cout<<endl<<"Value is: "<<a;
+	}
+};
+
+void main()
+{
+	clrscr();
+	demo obj1,obj2;
+	obj1.disp();
+	obj2.disp();
+	getch();
+}
